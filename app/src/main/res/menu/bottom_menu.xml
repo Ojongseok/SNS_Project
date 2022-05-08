@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group >
+        <item
+            android:id="@+id/homeTab"
+            android:enabled="true"
+            android:title="홈"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/chatTab"
+            android:enabled="true"
+            android:title="채팅"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/dd"
+            android:enabled="true"
+            android:title="게시판"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>
